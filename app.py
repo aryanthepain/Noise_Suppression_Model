@@ -11,7 +11,6 @@
 -------------------------------------------------
 """
 # Import required libraries
-import os
 import numpy as np
 np.complex = complex
 # np.complex is a function, and complex is a class used by librosa to do the same thing, i.e, create complex numbers.

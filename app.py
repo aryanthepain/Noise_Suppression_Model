@@ -115,10 +115,19 @@ def enhance_audio(noisy_input):
 """
 -------------------------------------------------
 """
-description="""This app removes background noise from audio recordings using spectral subtraction. You can record directly from your microphone or upload an audio file.
+description="""This app removes background noise from audio recordings using spectral subtraction. You can record directly from your microphone or upload an audio file.\n
 ℹ️ **Instructions:**\n\n- Click the mic icon or upload a noisy audio file.\n- The model will clean your audio.\n- You can download the result and compare waveform plots."""
 
-article="""Authors:-\n- Aryan Gupta\n-Tejas Deshmukh\n-Vibha Gupta\n-Vaishnavi Agarwal\nYou can check the inner workings and the whole project on Github- https://rb.gy/71cf8p."""
+article = """
+**Authors:**
+- Aryan Gupta  
+- Tejas Deshmukh  
+- Vibha Gupta  
+- Vaishnavi Agarwal  
+
+You can check the inner workings and the whole project on GitHub: [https://rb.gy/71cf8p](https://rb.gy/71cf8p)
+"""
+
 
 # Creating Gradio demonstration
 iface1 = gr.Interface(

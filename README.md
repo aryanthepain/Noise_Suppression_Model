@@ -2,12 +2,21 @@
 
 Authors:-
 
-- Aryan Gupta (230150003)
-- Vibha Gupta (230150029)
-- Tejas Deshmukh (230150027)
-- Vaishnavi Agarwal (230150028)
+- Aryan Gupta
+- Vibha Gupta
+- Tejas Deshmukh
+- Vaishnavi Agarwal
 
 The goal was to create a noise suppression model for real-life human audio.
+
+Check out the demonstration on [HuggingFace](https://huggingface.co/spaces/aryanthepain/Noise_Suppression_Model)
+
+All the required libraries are in `requirements.txt` so that you can freely explore the project.
+You can use the code below in your terminal to install the required libraries:
+
+```bash
+pip install -r ./requirements.txt
+```
 
 The file `final_approach.ipynb` contains the final approach to the problem solved using spectral subtraction which uses Short Time Fourier Transform(STFT) and Inverse STFT to complete the process.
 

@@ -17,9 +17,9 @@ We were going to solve this using an alternate initial approach using neural net
 
 We hope all your noise problems are solved. :)
 
-Authors:-
+## Authors:-
 
-- Aryan Gupta
-- Vibha Gupta
-- Tejas Deshmukh
-- Vaishnavi Agarwal
+- [Aryan Gupta](https://github.com/aryanthepain)
+- [Vibha Gupta](https://github.com/Vibha17)
+- [Tejas Deshmukh](https://github.com/tejas615)
+- [Vaishnavi Agarwal](https://github.com/VA0910)

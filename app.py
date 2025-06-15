@@ -18,7 +18,6 @@ np.complex = complex
 
 import librosa        # audio I/O & processing
 import librosa.display  # plotting
-import soundfile as sf  # reading/writing WAV files
 import matplotlib.pyplot as plt
 from scipy.signal import stft, istft  # STFT operations
 
@@ -116,13 +115,20 @@ def enhance_audio(noisy_input):
 """
 -------------------------------------------------
 """
+description="""This app removes background noise from audio recordings using spectral subtraction. You can record directly from your microphone or upload an audio file.
+ℹ️ **Instructions:**\n\n- Click the mic icon or upload a noisy audio file.\n- The model will clean your audio.\n- You can download the result and compare waveform plots."""
+
+article="""Authors:-\n- Aryan Gupta\n-Tejas Deshmukh\n-Vibha Gupta\n-Vaishnavi Agarwal\nYou can check the inner workings and the whole project on Github- https://rb.gy/71cf8p."""
 
 # Creating Gradio demonstration
 iface1 = gr.Interface(
     fn=enhance_audio,
-    inputs=gr.Audio(sources=['microphone','upload'], show_download_button=True, format='wav'),
-    outputs=[gr.Audio(type="numpy"), gr.Plot()],
+    inputs=gr.Audio(sources=['microphone','upload'], show_download_button=True, format='wav', label="Upload or Record Noisy Audio"),
+    outputs=[gr.Audio(type="numpy", label="Denoised Audio"), gr.Plot(label="Waveform Comparison")],
     theme='earneleh/paris',
+    title= "Noise Suppression model for Real-Life Human Audio",
+    description=description,
+    article=article,
     examples=['./noisy_sample_1.wav','./noisy_sample_2.wav']
 )
 iface1.launch()

@@ -1,12 +1,5 @@
 # Noise Suppression model for Real-Life Human Audio
 
-Authors:-
-
-- Aryan Gupta
-- Vibha Gupta
-- Tejas Deshmukh
-- Vaishnavi Agarwal
-
 The goal was to create a noise suppression model for real-life human audio.
 
 Check out the demonstration on [HuggingFace](https://huggingface.co/spaces/aryanthepain/Noise_Suppression_Model)
@@ -23,3 +16,10 @@ The file `final_approach.ipynb` contains the final approach to the problem solve
 We were going to solve this using an alternate initial approach using neural networks which is showcased in `alternate_failed_approach.ipynb`. However, the lack of results in the approach forced us to move to the final approach.
 
 We hope all your noise problems are solved. :)
+
+Authors:-
+
+- Aryan Gupta
+- Vibha Gupta
+- Tejas Deshmukh
+- Vaishnavi Agarwal

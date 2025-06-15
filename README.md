@@ -3,6 +3,7 @@
 The goal was to create a noise suppression model for real-life human audio.
 
 Check out the demonstration on [HuggingFace](https://huggingface.co/spaces/aryanthepain/Noise_Suppression_Model)
+You can find the source code for the demonstration in `app.py`
 
 All the required libraries are in `requirements.txt` so that you can freely explore the project.
 You can use the code below in your terminal to install the required libraries:
